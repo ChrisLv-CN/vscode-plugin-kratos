@@ -1,0 +1,55 @@
+{
+	"name": "vscode-plugin-kratos",
+	"displayName": "DP-Kratos INI Label Helper",
+	"description": "DP-Kratos 标签自动补完插件",
+	"keywords": [
+		"DynamicPatcher",
+		"dp",
+		"kratos",
+		"dp-kratos",
+		"ra2",
+		"yr",
+		"yuri"
+	],
+	"publisher": "ChrisLv_CN",
+	"icon": "https://avatars.githubusercontent.com/u/10529631?s=400&u=9f757f5a3cfb00c962295e9a83fb45afe6a0bdfb&v=4",
+	"homepage": "https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos",
+	"bugs": {
+		"url": "https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos/issues"
+	},
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.65.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:ini"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "ini",
+				"path": "./snippets/ini.json"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.65.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.0",
+		"@types/node": "14.x",
+		"eslint": "^8.9.0",
+		"glob": "^7.2.0",
+		"mocha": "^9.2.1",
+		"typescript": "^4.5.5",
+		"@vscode/test-electron": "^2.1.2"
+	}
+}
