@@ -85,6 +85,9 @@
         "body": [
             "[${1:newAE}]",
             "; Animation=none ;AE持续期间的动画",
+            "; ActiveAnim=none ;激活时的动画",
+            "; HitAnim=none ;被击中的动画",
+            "; DoneAnim=none ;结束时的动画",
             "; Duration=1 ;持续时间，设置的值大于0，将启动计时器。负值时该AE不被赋予，但赋予时如果遇到同组的AE将削减其持续时间并启动有效期计时",
             "; HoldDuration=yes ;不进行有效期计时，即无限时间",
             "; Status.FirepowerMultiplier=1.0 ;伤害系数",
@@ -140,6 +143,6 @@
             "; AutoWeapon.ReceiverOwnBullet=no ;启用时，武器发射的抛射体所属是AE的接受者，设no则抛射体所属为攻击者",
             "; AutoWeapon.FireOnce=no ;武器在发射一次之后强制结束AE"
         ],
-        "description": "新建自动武器AE"
+        "description": "新建攻击者标记AE"
     }
 }
