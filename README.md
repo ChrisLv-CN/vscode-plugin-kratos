@@ -1,65 +1,39 @@
-# vscode-plugin-kratos README
+[![license](https://www.gnu.org/graphics/gplv3-or-later.png)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-This is the README for your extension "vscode-plugin-kratos". After writing up a brief description, we recommend including the following sections.
+关于VSCode plugin Kratos (About VSCode plugin Kratos)
+============
+本插件是红警2尤里的复仇Mod开发平台项目DP-Kratos的代码编写辅助插件。  
+This plug-in is a code writing auxiliary plug-in for Red Alert 2 Yuri's Revenge Mod development platform project DP-Kratos.
+协助快速编辑使用了Kratos的Mod项目，自动补完代码片段。  
+Assists in quick editing of Mod projects using Kratos and automatically completes code snippets.
 
-## Features
+关于Kratos (About Kratos)
+============
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+DynamicPatcher是由开发者Xkein创建的尤里的复仇MOD开发平台，[项目主页](https://github.com/Xkein/YRDynamicPatcher)  
+DynamicPatcher is Yuri's Revenge MOD *development platform* created by developer Xkein.
 
-For example if there is an image subfolder under your extension project workspace:
+Kratos项目是尤里的复仇MOD《乱来时刻（WWSB HOUR）》的作者 **双杀步枪（ChrisLv_CN）** 所创建的DP应用项目。[MOD作者主页](https://space.bilibili.com/276838)  
+Project Kratos is a DP application project created by **ChrisLv_CN**, the author of Yuri's revenge MOD "WWSB HOUR".
 
-\!\[feature X\]\(images/feature-x.png\)
+本项目完全基于DP进行开发，以INI标签的形式为MOD提供全新特性。  
+This project is completely developed based on DP, and use INI labels to provides new features for MOD.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+帮助文档 (Documents)
+------------
+* [食用说明书](https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos/blob/main/DynamicPatcher/Kratos%E9%A3%9F%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6.ini)
 
-## Requirements
+开发者 (Developers)
+------------
+* 双杀步枪 (ChrisLv_CN) - 项目作者，开发者
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+要饭 (Funding)
+------------
+如果你喜欢本项目，并想通过资助来帮助本项目，可以通过以下方式。  
+If you like this project and want to fund it, here's how you can do it.  
+* PayPal - 12737@live.com
+* 支付宝 - [Alipay](https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos/blob/main/Images/alipay.jpg)
+* 微信 - [Wechat](https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos/blob/main/Images/wechat.jpg)
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
